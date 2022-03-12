@@ -1,0 +1,296 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: Livvic;
+    src: url('fonts/Livvic-Medium.ttf');
+}
+
+.site
+{
+    max-width: 1440px;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    font-family: Livvic;
+
+}
+
+.header
+{
+    padding: 0px 165px 120px 165px;
+    box-sizing: border-box;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: #014E56;
+}
+
+.header__team
+{
+    width: 380px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 75px;
+}
+
+.header__team h1
+{
+    width: 160px;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    font-size: 40px;
+}
+
+.header__home
+{
+    width: 140px;
+    line-height: 40px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header__home a
+{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.header__home a:hover
+{
+    color: #F67E7E;
+}
+
+.header button
+{
+    width: 155px;
+    height: 50px;
+    border-radius: 30px;
+    margin-top: 75px;
+    background-color: #014E56;
+    border: 3px solid #fff;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 45px;
+    color: #FFFFFF;
+
+}
+
+.header button:hover
+{
+    color: #014E56;
+    background-color:#fff;
+}
+
+.site .section1
+{
+    width: 100%;
+    height: auto;
+    padding: 0px 165px 120px 165px;
+    box-sizing: border-box;
+    background: url('photos/shape__11.png'), url('photos/shape__12.png');
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
+    background-color: #014E56;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section1__contact
+{
+    width: auto;
+    height: auto;
+}
+
+.section1__contact h1
+{
+    font-weight: bold;
+    font-size: 64px;
+    color: #FFFFFF;
+}
+
+.section1__contact h3
+{
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 32px;
+    color: #F67E7E;
+}
+
+.section1__contact .quality
+{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.quality p
+{
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.section1__inputs
+{
+    width: 540px;
+    height: auto;
+}
+
+.section1__inputs input
+{
+    width: 100%;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    margin-top: 25px;
+    color: #fff;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.446);
+    padding-left: 10px;
+    box-sizing: border-box;
+    font-family: Livvic;
+}
+
+.section1__inputs input::placeholder
+{
+    color: rgba(255, 255, 255, 0.59);
+    border: none;
+    font-size: 15px;
+}
+
+
+.section1__inputs input:hover
+{
+    border-bottom: 1px solid #79C8C7;
+}
+
+.section1__inputs input:nth-child(1)
+{
+    margin-top: 0px;
+}
+
+.section1__inputs a button
+{
+    width: 125px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 24px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 45px;
+    color: #004047;
+    margin-top: 25px;
+}
+
+.section1__inputs a button:hover
+{
+    background: #79C8C7;
+    border: 2px solid #79C8C7;
+}
+
+.section2
+{
+    width: 100%;
+    height: auto;
+    padding: 50px 165px;
+    box-sizing: border-box;
+    background: #002529;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section2 a
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+.section2 a:hover
+{
+    color: #F67E7E;
+}
+
+.section2 h1
+{
+    width: 160px;
+    color: #fff;
+    font-size: 50px;
+}
+
+.section2 .home
+{
+    width: 140px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.section2__info
+{
+    width: 200px;
+    margin-top: 20px;
+}
+
+.section2__info p
+{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+.section2__descr
+{
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section2__icons
+{
+    width: 255px;
+}
+
+.section2__icons .icons
+{
+    width: 105px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.section2__icons .icons i
+{
+    font-size: 20px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.section2__icons .icons i:hover
+{
+    color: #F67E7E;
+}
+
+.section2__icons p
+{
+    margin-top: 50px;
+    font-size: 15px;
+    line-height: 25px; 
+    color: #FFFFFF;
+    opacity: 0.6;
+}
